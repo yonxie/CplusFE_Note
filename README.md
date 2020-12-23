@@ -22,3 +22,8 @@ Only the following chapters are contained in this repo:
 
 ### 2. Chapter 6
 - `->` is used for pointer to call class memebers, equivalent to `(*pointer).member`
+
+### 3. Chapter 7
+- `virtual` specifier specifies virtual function. The derived class is optional to override this memeber function.
+- `virtual void func()=0` define a pure virtual function or pure virtual method which is required to be implemented by a derived class if the derived class is not abstract.
+- When declare function with function pointers as argument, it must contain the types the function's arguments. For example, `(*func)(double, int)`.
