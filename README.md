@@ -9,9 +9,10 @@ Only the following chapters are contained in this repo:
 - [Chapter 6: Memory management](https://github.com/yonxie/CplusFE_Note/tree/master/chpt6)
 - [Chapter 7: Inheritance](https://github.com/yonxie/CplusFE_Note/tree/master/chpt7)
 - [Chapter 9: Run-time behavior and exception handling](https://github.com/yonxie/CplusFE_Note/tree/master/chpt9)
---- 
+- [Chapter 10: STL](https://github.com/yonxie/CplusFE_Note/tree/master/chpt10)
 
-## Mistakes Made
+
+## Learning Note
 
 ### 1. Chapter 5
 
@@ -34,3 +35,6 @@ Only the following chapters are contained in this repo:
 - Remember to declare and define destructor in header file.
 - `size` methid in `vector` class return `unsigned int` object. Define counter correspondingly when use it in the loop.
 - Reference is a name constant for an address, acts mostly like a pointer. However, oo explicit dereferencing operator `*` should be used when return the values. Furthermore, to assign an address of a variable to a reference variable, no address-of operator `&` is needed.
+
+### 6. Chapter 10
+- When call a template function, one can explicitly specify the type. C++ support implicit template parameter deduction, so one can ignore the type as well. 
